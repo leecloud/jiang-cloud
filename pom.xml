@@ -53,6 +53,7 @@
   <modules>
     <!--注册中心-->
     <module>eureka-server</module>
+    <module>cloud-config</module>
   </modules>
 
   <build>
