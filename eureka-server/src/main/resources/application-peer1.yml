@@ -9,4 +9,4 @@ eureka:
     service-url:
       defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@peer2:8762/eureka/
   server:
-    enable-self-preservation: true # 自我保护机制，开发环境关闭 生产环境打开
+    enable-self-preservation: false # 自我保护机制，开发环境关闭 生产环境打开

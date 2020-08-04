@@ -53,7 +53,12 @@
   <modules>
     <!--注册中心-->
     <module>eureka-server</module>
+    <!--配置中心-->
     <module>cloud-config</module>
+    <!--监控中心-->
+    <module>cloud-monitor</module>
+    <!--后台管理模块-->
+<!--    <module>cloud-admin</module>-->
   </modules>
 
   <build>
