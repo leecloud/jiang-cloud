@@ -58,7 +58,11 @@
     <!--监控中心-->
     <module>cloud-monitor</module>
     <!--后台管理模块-->
-<!--    <module>cloud-admin</module>-->
+    <module>jiang-service</module>
+    <!--后台api模块-->
+    <module>jiang-service-api</module>
+    <!--公共模块-->
+    <module>jiang-common</module>
   </modules>
 
   <build>

@@ -1,0 +1,5 @@
+com\jiang\system\domain\SysUser.class
+com\jiang\system\feign\factory\RemoteUserFallbackFactory$1.class
+com\jiang\system\feign\RemoteUserService.class
+com\jiang\system\annotation\EnableYjFeignClients.class
+com\jiang\system\feign\factory\RemoteUserFallbackFactory.class

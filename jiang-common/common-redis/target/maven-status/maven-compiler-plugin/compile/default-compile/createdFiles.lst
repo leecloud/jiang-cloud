@@ -1,0 +1,7 @@
+com\jiang\commonredis\config\FastJsonRedisSerializer.class
+com\jiang\commonredis\annotation\RedisEvict.class
+com\jiang\commonredis\aspect\RedisAspect.class
+com\jiang\commonredis\util\RedisUtils.class
+com\jiang\commonredis\config\RedisConfig.class
+com\jiang\commonredis\CommonRedisApplication.class
+com\jiang\commonredis\annotation\RedisCache.class

@@ -1,0 +1,50 @@
+server:
+  port: 8005
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  application:
+    name: jiang-auth
+  messages:
+    basename: i18n/messages
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    config:
+      fail-fast: false
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true
+        service-id: cloud-config
+
+  main:
+    allow-bean-definition-overriding: true
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@peer2:8762/eureka/,http://${spring.security.user.name}:${spring.security.user.password}@peer1:8761/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
+    prefer-ip-address: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    com.jiang: debug
+    org.springframework: warn

@@ -1,0 +1,4 @@
+G:\java\jiang-cloud\jiang-service-api\jiang-system-api\src\main\java\com\jiang\system\domain\SysUser.java
+G:\java\jiang-cloud\jiang-service-api\jiang-system-api\src\main\java\com\jiang\system\feign\factory\RemoteUserFallbackFactory.java
+G:\java\jiang-cloud\jiang-service-api\jiang-system-api\src\main\java\com\jiang\system\annotation\EnableYjFeignClients.java
+G:\java\jiang-cloud\jiang-service-api\jiang-system-api\src\main\java\com\jiang\system\feign\RemoteUserService.java

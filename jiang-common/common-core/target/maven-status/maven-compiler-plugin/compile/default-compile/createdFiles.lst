@@ -1,0 +1,4 @@
+com\jiang\commoncore\core\domain\BaseEntity.class
+com\jiang\commoncore\core\dao\BaseMapper.class
+com\jiang\commoncore\core\constant\ServiceNameConstants.class
+com\jiang\commoncore\core\constant\Constants.class

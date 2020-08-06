@@ -1,0 +1,4 @@
+com\jiang\jiangauth\form\LoginForm.class
+com\jiang\jiangauth\controller\TokenController.class
+com\jiang\jiangauth\service\AccessTokenService.class
+com\jiang\jiangauth\JiangAuthApplication.class
